@@ -44,7 +44,7 @@ jobs:
           - { target: i686-pc-windows-msvc,          os: windows-latest, experimental: true }
           - { target: aarch64-pc-windows-msvc,       os: windows-latest, experimental: true }
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: dtolnay/rust-toolchain@stable
         with:
